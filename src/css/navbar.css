@@ -1,0 +1,38 @@
+ul {
+    display: flex;
+    justify-content: center;
+    background-color:#4b484ad3;
+    margin-top: -1px !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ul li {
+    list-style-type: none;
+    min-width: 100px;
+    min-height: 50px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+ul li .a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0 30px;
+    cursor: pointer
+}
+ul li .a:hover{
+    color: #8a683f;
+}
+
+@media (max-width:1280px) {
+    ul li {
+        min-width: 80px;
+    }
+    ul li .a {
+        font-size: 15px;
+        margin: 0 10px;
+    }
+}

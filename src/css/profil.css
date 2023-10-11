@@ -1,0 +1,35 @@
+.title-profil {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 75px auto 0 auto;
+}
+.profil {
+    margin-top: 50px;
+    display: flex;
+}
+
+.img-m {
+    width: 50%;
+    padding: 20px 75px;
+}
+.txt-m {
+    width: 50%;
+    padding: 20px 75px;
+}
+
+.img-m img {
+    width: 100%;
+}
+
+.txt-m h2 {
+    font-size: 2em !important;
+    font-weight: bold;
+}
+.txt-m p {
+    font-size: 1.2em;
+}
+.txt-m p span {
+    color: #8d693e;
+    font-weight: 700;
+}
