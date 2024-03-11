@@ -1,0 +1,22 @@
+.icones {
+    position: fixed;
+    top: 11px;
+    right: 50px;
+}
+.icones img {
+    max-width: 50px;
+    max-height: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+@media (max-width:1280px) {
+    .icones {
+        top: 20px;
+        right: 20px;
+    }
+    .icones img {
+        max-width: 30px;
+        max-height: 30px;
+    }
+}

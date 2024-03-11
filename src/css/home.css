@@ -1,0 +1,75 @@
+.name {
+    margin: 180px 0 0 160px;
+    font-size: 4rem;
+    color: whitesmoke;
+}
+.surname {
+    font-size: 3rem;
+    color: #8d693e;
+}
+.web-dev {
+    color: #b7915a;
+    font-size: 3em;
+    font-style: italic;
+    margin-left: 160px;
+}
+.front-end {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.home-container {
+    margin-top: -110px;
+    background-image: url(../../public/cover.jpg);
+    height: 115vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+
+.bloc1 {
+    margin-left: -150px !important;
+    margin-top: 390px;
+}
+@media (max-width:2050px) {
+    .bloc1 {
+        margin-top: 350px;
+    }
+}
+@media (max-width:1750px) {
+    .bloc1 {
+        margin-top: 250px;
+    }
+}
+@media (max-width:1390px) {
+    .bloc1 {
+        margin-top: 150px;
+    }
+    .home-container {
+        height: 118vh;
+    }
+}
+
+.bloc2 {
+    max-width: 400px;
+    margin-left: 13%;
+    margin-top: 60px;
+    background-color: #574c5b57;
+    padding: 25px 30px;
+    border-radius: 15px;
+    box-shadow: #585455;
+}
+.bloc2 h3 {
+    font-size: 2em;
+}
+.bloc2 p {
+    font-size: 1.5em;
+}
+
+.home{
+    color: #877f80;
+}

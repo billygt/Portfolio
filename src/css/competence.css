@@ -1,0 +1,61 @@
+.skill {
+    margin-top: 50px;
+    display: flex;
+}
+
+.img-s {
+    width: 50%;
+    padding: 20px 75px;
+}
+.txt-s {
+    width: 50%;
+    padding: 20px 75px;
+}
+.img-s img {
+    margin-top: 48px !important;
+    width: 100%;
+}
+
+.skill h3 {
+    text-align: center;
+    margin: 15px 0;
+}
+.skill .langage {
+    margin-top: -10px !important;
+    margin-bottom: 15px;
+}
+
+.skill .element {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+}
+.skill .element label {
+    width: 20%;
+    margin-right: 20px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.skill .element input {
+    width: 80%;
+    margin-top: 5px;
+}
+
+
+.study {
+    margin-top: 50px;
+    display: flex;
+}
+
+.img-study {
+    width: 50%;
+    padding: 20px 75px;
+}
+.txt-study {
+    width: 50%;
+    padding: 20px 75px;
+    margin-top: -35px !important;
+}
+.img-study img {
+    width: 100%;
+}
