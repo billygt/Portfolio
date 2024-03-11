@@ -62,3 +62,19 @@
 .img-study img {
     width: 100%;
 }
+
+
+@media screen and (max-width: 1200px) {
+    .skill, .study {
+        flex-direction: column;
+        display: block;
+    }
+    .img-s, .img-study {
+        width: 70%;
+        margin: 0 auto !important;
+    }
+    .txt-s, .txt-study {
+        width: 80%;
+        text-align: center;
+    }
+}

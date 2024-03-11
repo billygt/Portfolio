@@ -83,3 +83,14 @@
     color: #ffa149;
     font-weight: bold;
 }
+
+
+@media screen and (max-width: 1200px) {
+    .social-network {
+        flex-wrap: wrap;
+    }
+    .cr {
+        margin-left: 0;
+        transform: translateX(20%);
+    }
+}
