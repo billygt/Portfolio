@@ -11,12 +11,13 @@
 
 .img-m {
     width: 50%;
-    padding: 20px 75px;
+    padding: 0px 75px;
+    margin: auto 0;
 }
 .txt-m {
     width: 50%;
-    padding: 20px 75px;
-    margin-top: 10px;
+    padding: 0px 75px;
+    margin: auto 0;
 }
 
 .img-m img {

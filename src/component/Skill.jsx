@@ -1,3 +1,6 @@
+import skillImg from "../img/skill.jpg"
+import graduationImg from "../img/etude.jpg"
+
 export default function Skills() {
     return(
         <div id="my-skill">
@@ -38,13 +41,13 @@ export default function Skills() {
                     </div>
                 </div>
                 <div className="img-s">
-                    <img src={process.env.PUBLIC_URL + `./skill.jpg`} />
+                    <img src={skillImg} alt="etude" />
                 </div>
             </div>
             <h2 className="title-profil">Diplôme</h2>
             <div className="study">
                 <div className="img-study">
-                    <img src={process.env.PUBLIC_URL + `./etude.jpg`} />
+                    <img src={graduationImg} alt="etude" />
                 </div>
                 <div className="txt-study">
                     <div>

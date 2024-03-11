@@ -1,3 +1,5 @@
+import profilePhoto from "../img/me.jpg"
+
 export default function Profil() {
     return(
         <div id="my-profil">
@@ -5,7 +7,7 @@ export default function Profil() {
         <h2 className="title-profil">Profil</h2>
         <div className="profil">
             <div className="img-m">
-                <img src={process.env.PUBLIC_URL + `./me.jpg`} alt="profil" />
+                <img src={profilePhoto} alt="profil" />
             </div>
             <div className="txt-m">
                 <div className="texte">

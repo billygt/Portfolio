@@ -21,7 +21,7 @@
 
 .home-container {
     margin-top: -110px;
-    background-image: url(../../public/cover.jpg);
+    background-image: url(../img/cover.jpg);
     height: 115vh;
     background-repeat: no-repeat;
     background-size: cover;
