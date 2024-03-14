@@ -1,5 +1,6 @@
 import skillImg from "../img/skill.jpg"
 import myPortfolio from "../img/portfolio.jpg"
+import Galeria from "../img/Galeria.JPG"
 
 export default function Project() {
     return(
@@ -53,7 +54,7 @@ export default function Project() {
                     <h2>2022</h2>
                     <h3>Site Galérie d'image</h3>
                     <span>React JS</span>
-                    <img src={skillImg} alt="" />
+                    <img src={Galeria} alt="" />
                 </div>
                 <div>
                     <h2>2023</h2>
