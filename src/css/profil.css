@@ -39,6 +39,9 @@
 .part-2-profil {
     margin: 20px 75px;
 }
+.part-2-profil p, .part-2-profil i {
+    font-size: 1.2em;
+}
 
 .hided {
     visibility: hidden;
