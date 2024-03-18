@@ -3,7 +3,6 @@ import 'react-circular-progressbar/dist/styles.css';
 
 import skillImg from "../img/skill.jpg"
 import graduationImg from "../img/etude.jpg"
-import htmlCSS from "../img/htmlCss.png"
 
 export default function Skills() {
 
