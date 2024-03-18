@@ -34,19 +34,19 @@ export default function Profil() {
         <div className="part-2-profil">
         <h3>Developpeur Front-end</h3>
                 <p>
-                    Pour moi, <i>la compétence</i> ne suffit pas pour être <i>développeur web</i> front end.
-                    C'est comme un art donc il faut aussi de la passion et surtout
+                    Pour moi, <span>la compétence</span> ne suffit pas pour être <span>développeur web</span> front end.
+                    C'est comme <span>un art</span> donc il faut aussi de la passion et surtout
                     de l'empathie envers les internautes.
                 </p>
                 <p>
                     En tant que passioné d'informatique et précisement
-                    de développement web depuis très longtemps, c'est pour
-                    moi un domaine dont j'arrive à m'épanouir, à me dépasser
-                    et à mettre en oeuvre mes atouts en créativité.
+                    de <span>développement web et mobile</span> depuis très longtemps, c'est pour
+                    moi un domaine dans quoi j'arrive à m'épanouir, à me dépasser
+                    et à mettre en oeuvre <span>ma créativité</span>.
                 </p>
                 <p>
                     Actuellement, j'ai travaillé comme développeur web front-end depuis trois
-                    ans. J'ai déjà travaillé sur 5 grands projets et pas mal petits projets.
+                    ans. J'ai déjà travaillé sur 5 grands projets et de nombreux projets.
                 </p>
         </div>
         </div>

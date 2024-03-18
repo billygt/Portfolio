@@ -1,4 +1,3 @@
-import skillImg from "../img/skill.jpg"
 import myPortfolio from "../img/portfolio.jpg"
 import Galeria from "../img/Galeria.JPG"
 import eCommerce from "../img/e-commerce.jpg"
@@ -46,12 +45,6 @@ export default function Project() {
                     <h3>E-commerce</h3>
                     <span>WordPress</span>
                     <img src={eCommerce} alt="" />
-                </div>
-                <div>
-                    <h2>2020</h2>
-                    <h3>Front Blog</h3>
-                    <span>React JS</span>
-                    <img src={blogImg} alt="" />
                 </div>
                 <div>
                     <h2>2022</h2>

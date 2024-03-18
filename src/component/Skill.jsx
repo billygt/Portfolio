@@ -1,7 +1,14 @@
+import { CircularProgressbar } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
+
 import skillImg from "../img/skill.jpg"
 import graduationImg from "../img/etude.jpg"
+import htmlCSS from "../img/htmlCss.png"
 
 export default function Skills() {
+
+    const percentage = 66;
+
     return(
         <div id="my-skill">
             <div className="separate"></div>
@@ -9,35 +16,43 @@ export default function Skills() {
             <div className="skill">
                 <div className="txt-s">
                     <h3 className="langage">Langage de programmation</h3>
-                    <div className="element">
-                        <label>HTML5 & CSS3</label>
-                        <input type="range" className="hc" name="" id="" value="100" />
+                    <div className='programming-language'>
+                        <div className="element">
+                            <CircularProgressbar value={percentage} text={`${percentage}%`} />
+                            <label className='htmlCSSLabel'>HTML5 & CSS3</label>
+                        </div>
+                        <div className="element">
+                            <CircularProgressbar value={percentage} text={`${percentage}%`} />
+                            <label className='bootstrapLabel'>Bootstrap</label>
+                        </div>
+                        <div className="element">
+                            <CircularProgressbar value={percentage} text={`${percentage}%`} />
+                            <label className='javascriptLabel'>JavaScript</label>
+                        </div>
+                        <div className="element">
+                            <CircularProgressbar value={percentage} text={`${percentage}%`} />
+                            <label className='javascriptLabel'>TypeScript</label>
+                        </div>
+                        <div className="element">
+                            <CircularProgressbar value={percentage} text={`${percentage}%`} />
+                            <label className='phpMysqlLabel'>PHP & MySQL</label>
+                        </div>
                     </div>
-                    <div className="element">
-                        <label>Bootstrap</label>
-                        <input type="range" className="hc" name="" id="" value="90" />
-                    </div>
-                    <div className="element">
-                        <label>JavaScript</label>
-                        <input type="range" name="" id="" value="80" />
-                    </div>
-                    <div className="element">
-                        <label>TypeScript</label>
-                        <input type="range" name="" id="" value="70" />
-                    </div>
-                    <div className="element">
-                        <label>PHP & MySQL</label>
-                        <input type="range" name="" id="" value="50" />
-                    </div>
-                    <h3>Librairie</h3>
-                    <div className="element">
-                        <label>React.JS</label>
-                        <input type="range" name="" id="" value="85" />
-                    </div>
-                    <h3>CMS</h3>
-                    <div className="element">
-                        <label>WordPress</label>
-                        <input type="range" name="" id="" value="85" />
+                    <div className='flex-column'>
+                        <div>
+                            <h3>Librairie</h3>
+                            <div className="element">
+                                <CircularProgressbar value={percentage} text={`${percentage}%`} />
+                                <label className='reactJsLabel'>ReactJS</label>
+                            </div>
+                        </div>
+                        <div>
+                            <h3>CMS</h3>
+                            <div className="element">
+                                <CircularProgressbar value={percentage} text={`${percentage}%`} />
+                                <label className='wordpressLabel'>WordPress</label>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="img-s">

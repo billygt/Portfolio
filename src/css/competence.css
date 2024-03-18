@@ -10,7 +10,7 @@
 }
 .txt-s {
     width: 50%;
-    padding: 0px 75px;
+    padding: 0px 0px 0 75px;
     margin: auto 0;
 }
 .img-s img {
@@ -19,7 +19,8 @@
 }
 
 .skill h3 {
-    text-align: center;
+    text-align: left;
+    font-size: 1.3em;
     margin: 15px 0;
 }
 .skill .langage {
@@ -27,20 +28,59 @@
     margin-bottom: 15px;
 }
 
-.skill .element {
-    width: 100%;
-    margin: 20px 0;
+.programming-language {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.skill .element {
+    width: 15%;
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
 }
 .skill .element label {
-    width: 20%;
+    width: 130%;
     margin-right: 20px;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 600;
 }
 .skill .element input {
     width: 80%;
     margin-top: 5px;
+}
+
+.htmlCSSLabel {
+    margin: 10px 0 10px -9px;
+}
+.bootstrapLabel {
+    margin: 10px 0 10px 10px;
+}
+.javascriptLabel {
+    margin: 10px 0 10px 10px;
+}
+.phpMysqlLabel {
+    margin: 10px 0 10px 0px;
+}
+.reactJsLabel {
+    margin: 10px 0 10px 20px;
+}
+.wordpressLabel {
+    margin: 10px 0 10px 10px;
+}
+
+.CircularProgressbar, .CircularProgressbar-path {
+    stroke: #846b46 !important;
+}
+
+.flex-column {
+    display: flex;
+}
+.flex-column .element {
+    width: 30%;
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 
