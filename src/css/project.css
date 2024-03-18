@@ -11,13 +11,13 @@
     padding: 25px 30px;
     margin: 40px 0;
     border-radius: 15px;
-    color: rgb(245, 245, 245);
+    color: rgb(255, 255, 255);
     text-align: center;
-    background-color: rgb(129, 129, 129);
+    background-color: #D4D2D5;
     cursor: pointer;
 }
 .list-project div:hover {
-    background-color: rgb(155, 155, 155);
+    background-color: #b1afaf;
 }
 
 .list-project div img {

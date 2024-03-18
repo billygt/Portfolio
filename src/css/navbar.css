@@ -1,16 +1,19 @@
+.navbar {
+    
+}
 ul {
+    position: fixed;
+    background-color:#4b484ad3;
     display: flex;
     justify-content: center;
-    background-color:#4b484ad3;
-    margin-top: -1px !important;
-    position: fixed;
+    margin-top: -10px !important;
     top: 0;
     width: 100%;
 }
 ul li {
     list-style-type: none;
     min-width: 100px;
-    min-height: 50px;
+    min-height: 40px;
     text-align: center;
     padding-top: 25px;
 }

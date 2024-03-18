@@ -2,8 +2,8 @@ export default function Home() {
     return(
         <>
         <div className="home-container" id="home">
+            <h1>Home</h1>
             <div className="bloc1">
-                <h1>Home</h1>
                 <h2 className="name">TSILAVO <span className="surname">Miharivelo Billy</span>
                 </h2>
                 <span className="web-dev">Développeur 
