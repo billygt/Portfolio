@@ -34,31 +34,33 @@ export default function Skills() {
                             <CircularProgressbar value={50} text={`${50}%`} />
                             <label className='phpMysqlLabel'>PHP & MySQL</label>
                         </div>
+                        <div className="element">
+                            <CircularProgressbar value={75} text={`${75}%`} />
+                            <label className='reactJsLabel'>ReactJS</label>
+                        </div>
+                        <div className="element">
+                            <CircularProgressbar value={75} text={`${75}%`} />
+                            <label className='reactJsLabel'>NextJS</label>
+                        </div>
+                        <div className="element">
+                            <CircularProgressbar value={75} text={`${75}%`} />
+                            <label className='wordpressLabel'>WordPress</label>
+                        </div>
                     </div>
 
                     
-                    <div className='libraryCMS'>
+                    {/* <div className='libraryCMS'>
                         <div>
                             <h3>Librairies et Framework</h3>
                             <div className='library'>
-                                <div className="element">
-                                    <CircularProgressbar value={75} text={`${75}%`} />
-                                    <label className='reactJsLabel'>ReactJS</label>
-                                </div>
-                                <div className="element">
-                                    <CircularProgressbar value={75} text={`${75}%`} />
-                                    <label className='reactJsLabel'>NextJS</label>
-                                </div>
+                                
                             </div>
                         </div>
                         <div className='cms'>
                             <h3>CMS</h3>
-                            <div className="element">
-                                <CircularProgressbar value={75} text={`${75}%`} />
-                                <label className='wordpressLabel'>WordPress</label>
-                            </div>
+                            
                         </div>
-                    </div>
+                    </div> */}
 
 
                 </div>
