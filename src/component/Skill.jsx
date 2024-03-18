@@ -7,53 +7,61 @@ import htmlCSS from "../img/htmlCss.png"
 
 export default function Skills() {
 
-    const percentage = 66;
-
     return(
         <div id="my-skill">
             <div className="separate"></div>
             <h2 className="title-profil">Compétence</h2>
             <div className="skill">
                 <div className="txt-s">
-                    <h3 className="langage">Langage de programmation</h3>
+                    <h3 className="langage">Langages de programmation</h3>
                     <div className='programming-language'>
                         <div className="element">
-                            <CircularProgressbar value={percentage} text={`${percentage}%`} />
+                            <CircularProgressbar value={95} text={`${95}%`} />
                             <label className='htmlCSSLabel'>HTML5 & CSS3</label>
                         </div>
                         <div className="element">
-                            <CircularProgressbar value={percentage} text={`${percentage}%`} />
+                            <CircularProgressbar value={90} text={`${90}%`} />
                             <label className='bootstrapLabel'>Bootstrap</label>
                         </div>
                         <div className="element">
-                            <CircularProgressbar value={percentage} text={`${percentage}%`} />
+                            <CircularProgressbar value={80} text={`${80}%`} />
                             <label className='javascriptLabel'>JavaScript</label>
                         </div>
                         <div className="element">
-                            <CircularProgressbar value={percentage} text={`${percentage}%`} />
+                            <CircularProgressbar value={70} text={`${70}%`} />
                             <label className='javascriptLabel'>TypeScript</label>
                         </div>
                         <div className="element">
-                            <CircularProgressbar value={percentage} text={`${percentage}%`} />
+                            <CircularProgressbar value={50} text={`${50}%`} />
                             <label className='phpMysqlLabel'>PHP & MySQL</label>
                         </div>
                     </div>
-                    <div className='flex-column'>
+
+                    
+                    <div className='libraryCMS'>
                         <div>
-                            <h3>Librairie</h3>
-                            <div className="element">
-                                <CircularProgressbar value={percentage} text={`${percentage}%`} />
-                                <label className='reactJsLabel'>ReactJS</label>
+                            <h3>Librairies et Framework</h3>
+                            <div className='library'>
+                                <div className="element">
+                                    <CircularProgressbar value={75} text={`${75}%`} />
+                                    <label className='reactJsLabel'>ReactJS</label>
+                                </div>
+                                <div className="element">
+                                    <CircularProgressbar value={75} text={`${75}%`} />
+                                    <label className='reactJsLabel'>NextJS</label>
+                                </div>
                             </div>
                         </div>
-                        <div>
+                        <div className='cms'>
                             <h3>CMS</h3>
                             <div className="element">
-                                <CircularProgressbar value={percentage} text={`${percentage}%`} />
+                                <CircularProgressbar value={75} text={`${75}%`} />
                                 <label className='wordpressLabel'>WordPress</label>
                             </div>
                         </div>
                     </div>
+
+
                 </div>
                 <div className="img-s">
                     <img src={skillImg} alt="etude" />

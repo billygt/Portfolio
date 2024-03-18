@@ -32,6 +32,12 @@
     display: flex;
     flex-wrap: wrap;
 }
+.library {
+    display: flex;
+}
+.libraryCMS {
+    position: relative;
+}
 
 .skill .element {
     width: 15%;
@@ -73,11 +79,12 @@
     stroke: #846b46 !important;
 }
 
+
 .flex-column {
     display: flex;
 }
 .flex-column .element {
-    width: 30%;
+    width: 10%;
     margin: 10px 20px;
     display: flex;
     flex-direction: column;
