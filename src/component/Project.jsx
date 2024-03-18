@@ -1,6 +1,9 @@
 import skillImg from "../img/skill.jpg"
 import myPortfolio from "../img/portfolio.jpg"
 import Galeria from "../img/Galeria.JPG"
+import eCommerce from "../img/e-commerce.jpg"
+import forumImg from "../img/forum.jpg"
+import blogImg from "../img/blog.jpg"
 
 export default function Project() {
     return(
@@ -12,43 +15,43 @@ export default function Project() {
                     <h2>2018</h2>
                     <h3>Front Site E-commerce</h3>
                     <span>HTML&CSS, JavaScript</span>
-                    <img src={skillImg} alt="" />
+                    <img src={eCommerce} alt="" />
                 </div>
                 <div>
                     <h2>2018</h2>
                     <h3>Front Forum</h3>
                     <span>HTML&CSS, JavaScript</span>
-                    <img src={skillImg} alt="" />
+                    <img src={forumImg} alt="" />
                 </div>
                 <div>
                     <h2>2019</h2>
                     <h3>Front Blog</h3>
                     <span>HTML&CSS, JavaScript</span>
-                    <img src={skillImg} alt="" />
+                    <img src={blogImg} alt="" />
                 </div>
                 <div>
                     <h2>2019</h2>
                     <h3>Site Vitrine</h3>
                     <span>WordPress</span>
-                    <img src={skillImg} alt="" />
+                    <img src={blogImg} alt="" />
                 </div>
                 <div>
                     <h2>2019</h2>
                     <h3>Blog</h3>
                     <span>WordPress</span>
-                    <img src={skillImg} alt="" />
+                    <img src={blogImg} alt="" />
                 </div>
                 <div>
                     <h2>2020</h2>
                     <h3>E-commerce</h3>
                     <span>WordPress</span>
-                    <img src={skillImg} alt="" />
+                    <img src={eCommerce} alt="" />
                 </div>
                 <div>
                     <h2>2020</h2>
                     <h3>Front Blog</h3>
                     <span>React JS</span>
-                    <img src={skillImg} alt="" />
+                    <img src={blogImg} alt="" />
                 </div>
                 <div>
                     <h2>2022</h2>
