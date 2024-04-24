@@ -5,14 +5,9 @@ export default function Profil() {
         <div id="my-profil">
         <div className="separate hided"></div>
         <h2 className="title-profil">Profil</h2>
-        <div className="profil">
-            <div className="img-m">
-                <img src={profilePhoto} alt="profil" />
-            </div>
-            <div className="txt-m">
-                <div className="texte">
-                    <h2 className="title">A propos de moi</h2>
-                    <p>Je m'appelle TSILAVO Miharivelo <span>Billy</span>.</p>
+        <div className="part-2-profil">
+        <h3>A propos de moi</h3>
+        <p>Je m'appelle TSILAVO Miharivelo <span>Billy</span>.</p>
                     <p>Je suis passioné d'informatique depuis
                         mon enfance. Je me suis plongé dans le monde
                         du <span>developpement web</span> depuis que
@@ -28,12 +23,17 @@ export default function Profil() {
                         en adoptant tous les moyens possible, surtout la réalisation
                         de projets personnels.
                     </p>
-                    </div>
-            </div>
         </div>
-        <div className="part-2-profil">
-        <h3>Developpeur Front-end</h3>
-                <p>
+        <div className="profil">
+            <div className="img-m">
+                <img src={profilePhoto} alt="profil" />
+            </div>
+            <div className="txt-m">
+                <div className="texte">
+                    <h2 className="title">Developpeur Front-end</h2>
+  
+
+                    <p>
                     Pour moi, <span>la compétence</span> ne suffit pas pour être <span>développeur web</span> front end.
                     C'est comme <span>un art</span> donc il faut aussi de la passion et surtout
                     de l'empathie envers les internautes.
@@ -48,7 +48,10 @@ export default function Profil() {
                     Actuellement, j'ai travaillé comme développeur web front-end depuis trois
                     ans. J'ai déjà travaillé sur 5 grands projets et de nombreux projets.
                 </p>
+                    </div>
+            </div>
         </div>
+        
         </div>
     )
 }

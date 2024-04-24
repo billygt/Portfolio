@@ -42,7 +42,10 @@
 }
 
 .part-2-profil {
-    margin: 20px 75px;
+    margin: 50px 75px 20px 75px;
+}
+.part-2-profil h3 {
+    font-size: 1.4em;
 }
 .part-2-profil p, .part-2-profil i {
     font-size: 1.2em;
@@ -71,5 +74,11 @@
     .txt-m {
         width: 80%;
         text-align: center;
+    }
+}
+
+@media (max-width:760px) {
+    .my-profil {
+        min-width: 107vw;
     }
 }

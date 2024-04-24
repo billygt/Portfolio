@@ -1,6 +1,7 @@
 .skill {
     margin-top: 50px;
     display: flex;
+    max-width: 100%;
 }
 
 .img-s {
@@ -120,9 +121,13 @@
         width: 70%;
         margin: 0 auto !important;
     }
-    .txt-s, .txt-study {
+    .txt-study {
         width: 80%;
         text-align: center;
+    }
+    .txt-s {
+        text-align: center;
+        width: 80%;
     }
 }
 /* @media screen and (max-width: ) {

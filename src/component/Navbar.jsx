@@ -5,7 +5,7 @@ export default function Navbar() {
 
     return(
         <>
-            <a href="#" className="burger-menu"></a>
+            {/* <a href="#" className="burger-menu"></a> */}
             <ul className='nav'>
                 <li><a className="a home" href='#home'>Home</a></li>
                 <li><a className="a home" href='#my-profil'>Profil</a></li>
