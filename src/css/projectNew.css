@@ -29,7 +29,7 @@ body {
     margin: 0 50px 50px 50px;
 }
 
-.wrapper i { 
+.wrapper .icon-left-right { 
 	height: 50px; 
 	width: 50px; 
 	background: #8d693e88; 
@@ -45,12 +45,12 @@ body {
 
 } 
 
-.wrapper i:first-child { 
+.wrapper .icon-left-right:first-child { 
 	left: 17px; 
 
 } 
 
-.wrapper i:last-child { 
+.wrapper .icon-left-right:last-child { 
 	right: 20px; 
 
 } 
