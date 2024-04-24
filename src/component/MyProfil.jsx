@@ -8,16 +8,16 @@ export default function Profil() {
         <div className="part-2-profil">
         <h3>A propos de moi</h3>
         <p>Je m'appelle TSILAVO Miharivelo <span>Billy</span>.</p>
-                    <p>Je suis passioné d'informatique depuis
+                    <p>Je suis passioné de <span>nouvelle technologie</span> depuis
                         mon enfance. Je me suis plongé dans le monde
                         du <span>developpement web</span> depuis que
-                        j'ai intégré l'ESTIIM' University en tant qu'étudiant
-                        en informatique. Après deux ans 2 ans d'étude.
+                        j'ai intégré <a className="lien-estiim" href="http://www.estiim.net/"><span>'ESTIIM'</span></a> en tant qu'étudiant
+                        en informatique. Après <span>deux ans</span> d'étude.
                         J'ai commencé à travailler en tant que technicien 
                         informatique et en réalisant des projets personnels 
                         comme des sites vitrines, des sites e-commerce en local.
                         Puis, j'ai travailler en tant que développeur web en freelance.
-                        Et actuellement, je travaille en tant qu'intégrateur web.
+                        Et actuellement, je travaille en tant <span>qu'intégrateur web</span>.
                     </p>
                     <p>Je n'arrête pas de développer mes compétences
                         en adoptant tous les moyens possible, surtout la réalisation

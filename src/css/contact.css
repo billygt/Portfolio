@@ -1,7 +1,7 @@
 .contact-me {
     max-width: 100%;
     padding: 30px 20%;
-    background-color: #4b484ad3;
+    background-color: #4b484ab6;
 }
 .contact-me h2, .contact-me label {
     color: rgb(240, 240, 240);
@@ -74,9 +74,9 @@
 
 .social-network {
     display: flex;
-    margin: 35px -50px !important;
-    justify-content: space-between;
+    margin: 35px 0 !important;
     color: #ffff;
+    justify-content: space-around;
 }
 .social-network a {
     text-decoration: none;

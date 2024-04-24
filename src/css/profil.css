@@ -4,6 +4,9 @@
     font-weight: bold;
     margin: 75px auto 0 auto;
 }
+.lien-estiim {
+    text-decoration: none;
+}
 .profil {
     margin-top: 50px;
     display: flex;
