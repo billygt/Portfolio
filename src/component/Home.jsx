@@ -1,3 +1,5 @@
+import Billy from "../img/billy.jpg"
+
 export default function Home() {
     return(
         <>
@@ -5,6 +7,7 @@ export default function Home() {
         <div className="home-container" id="home">
             
             <div className="bloc1">
+                <img alt="TSILAVO Miharivelo Billy" className="billy-img" src={Billy} />
                 <h2 className="name">TSILAVO <span className="surname">Miharivelo Billy</span>
                 </h2>
                 <span className="web-dev">Développeur 
