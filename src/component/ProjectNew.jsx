@@ -8,7 +8,7 @@ export default function Project() {
     
 
     return(
-        <div className="projects">
+        <div className="projects" id="project">
         <div className="separate"></div>
         <h2 className="title-profil">Projets</h2>
         <div class="wrapper">
