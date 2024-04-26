@@ -1,5 +1,5 @@
 .contact-me {
-    max-width: 100%;
+    width: auto;
     padding: 30px 20%;
     background-color: #4b484ab6;
 }
@@ -94,8 +94,8 @@
         transform: translateX(20%);
     }
 }
-/* @media screen and (max-width: 760px) {
+@media screen and (max-width: 760px) {
     .contact-me {
-        margin-right: -50px;
+        margin-right: -20px;
     }
-} */
+}

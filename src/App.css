@@ -6,16 +6,16 @@
 
 
 body{
-    width: 100vw !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     overflow-x: hidden !important;
 }
 
 
 .container {
-    margin: 0;
-    padding: 0;
     height: 100vh;
-    max-width: 100vw !important;
+    margin-right: -70px;
 }
 .separate {
     margin-top: 50px;;
