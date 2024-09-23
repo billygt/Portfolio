@@ -1,17 +1,15 @@
 .skill {
-    margin-top: 50px;
+    margin: 50px auto;
+    width: 80%;
     display: flex;
     max-width: 100%;
 }
 
 .img-s {
     width: 50%;
-    padding: 0px 75px;
-    margin: auto 0;
 }
 .txt-s {
     width: 50%;
-    padding: 0px 0px 0 75px;
     margin: auto 0;
 }
 .img-s img {
@@ -47,33 +45,14 @@
     flex-direction: column;
 }
 .skill .element label {
-    width: 130%;
-    margin-right: 20px;
+    width: 100%;
     font-size: 1em;
     font-weight: 600;
+    margin-top: 15px;
 }
 .skill .element input {
     width: 80%;
     margin-top: 5px;
-}
-
-.htmlCSSLabel {
-    margin: 10px 0 10px -9px;
-}
-.bootstrapLabel {
-    margin: 10px 0 10px 10px;
-}
-.javascriptLabel {
-    margin: 10px 0 10px 10px;
-}
-.phpMysqlLabel {
-    margin: 10px 0 10px 0px;
-}
-.reactJsLabel {
-    margin: 10px 0 10px 20px;
-}
-.wordpressLabel {
-    margin: 10px 0 10px 10px;
 }
 
 .CircularProgressbar, .CircularProgressbar-path {
@@ -93,7 +72,8 @@
 
 
 .study {
-    margin-top: 50px;
+    margin: 50px auto;
+    width: 80%;
     display: flex;
 }
 
@@ -103,9 +83,11 @@
     margin: auto 0;
 }
 .txt-study {
-    width: 50%;
-    padding: 0px 75px;
-    margin: auto 0;
+    width: 80%;
+    margin: 0 auto;
+}
+.txt-study div {
+    text-align: left;
 }
 .img-study img {
     width: 100%;
@@ -128,6 +110,7 @@
     .txt-s {
         text-align: center;
         width: 80%;
+        margin: 0 auto;
     }
 }
 /* @media screen and (max-width: ) {

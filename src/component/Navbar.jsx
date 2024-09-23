@@ -21,6 +21,7 @@ export default function Navbar() {
                 <li><a className="a comp" href='#my-skill'>Compétence</a></li>
                 <li><a className="a oeuvres" href="#project">Projets</a></li>
                 <li><a className="a contact" href='#contact'>Contact</a></li>
+                <a href="#" className="close-menu-button" onClick={hideMenu}>X</a>
             </ul>
     
             <Scroll />

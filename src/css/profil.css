@@ -8,19 +8,22 @@
     text-decoration: none;
 }
 .profil {
-    margin-top: 50px;
+    margin: 50px auto;
     display: flex;
+    width: 80%;
 }
 
 .img-m {
     width: 50%;
-    padding: 0px 75px;
+    padding: 0px 75px 0 0;
     margin: auto 0;
 }
 .txt-m {
     width: 50%;
-    padding: 0px 75px;
-    margin: auto 0;
+    margin: 0 auto;
+}
+.txt-m .texte {
+    text-align: justify;
 }
 
 .img-m img {
@@ -45,13 +48,18 @@
 }
 
 .part-2-profil {
-    margin: 50px 75px 20px 75px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
 }
 .part-2-profil h3 {
     font-size: 1.4em;
 }
 .part-2-profil p, .part-2-profil i {
     font-size: 1.2em;
+}
+.part-2-profil p {
+    text-align: justify;
 }
 
 .hided {

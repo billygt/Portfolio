@@ -1,7 +1,7 @@
 
 .nav {
     position: fixed;
-    background-color:#4b484ad3;
+    background-color:#252525d3;
     display: flex;
     justify-content: center;
     margin-top: -10px !important;
@@ -54,27 +54,34 @@
     } */
  
 }
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 575px) {
     .nav {
-        transform: translateX(-100%);
+        transform: translateX(-140%);
         position: fixed !important;
         top: 0px;
-        overflow: hidden;
+        /* overflow: hidden; */
         margin: auto !important;
         flex-direction: column;
         padding-left: 0;
-        height: 120vh;
+        height: 100vh;
         transition: linear;
         transition-duration: 120ms;
+        width: 50%;
+        background-color: #8d693e;
+        display: block;
+        padding-top: 30px;
     }
     .displayMenu {
         transform: translateX(0);
     }
     .hideMenu {
-        transform: translateX(-100%) !important;
+        transform: translateX(-140%) !important;
     }
     .nav li:hover {
         color: #8a683f;
+    }
+    .nav li {
+        border-bottom: 2px solid rgba(255, 255, 255, 0.336);
     }
     .nav li a {
         font-size: 1.5em;
@@ -83,18 +90,17 @@
             position: fixed;
             z-index: 99;
             display: block;
-            width: 50px;
             height: 50px;
-    
             cursor: pointer;
-            right: 60px;
-            top: 5px;
+            width: 100%;
+            top: 0;
+            background: #4b484ad3;
         }
         .burger-menu::after {
             content: '';
-            position: relative;
-            top: 4%;
-            left: 12%;
+            position: fixed;
+            top: 5px;
+            right: 15px;
             display: block;
             width: 30px;
             height: 2px;
@@ -103,5 +109,22 @@
         h1 {
             margin-left: -20px !important;
             top: 15px !important;
+        }
+
+        .close-menu-button {
+            position: fixed;
+            top: 45vh;
+            right: -55px;
+            color: #fff;
+            background-color: #8d693e;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            font-size: 45px;
+            padding-top: 1px;
+            text-decoration: none;
         }
 }
