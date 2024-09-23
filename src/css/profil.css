@@ -93,3 +93,11 @@
         min-width: 107vw;
     }
 }
+@media (max-width:767px) {
+    .img-m {
+        padding: 0;
+    }
+    .txt-m {
+        width: 100%
+    }
+}

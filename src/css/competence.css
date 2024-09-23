@@ -92,6 +92,11 @@
 .img-study img {
     width: 100%;
 }
+@media (max-width:767px) {
+    .txt-study {
+        width: 100% !important;
+    }
+}
 
 
 @media screen and (max-width: 1200px) {
