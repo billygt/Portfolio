@@ -13,7 +13,7 @@ export default function Home() {
                 <span className="web-dev">Développeur 
                     <span className="front-end"> Front-End</span>
                 </span>
-                <a className="download-cv" href="https://drive.google.com/uc?export=download&id=1QXMO1L7MOkmQBqrbCOCY-XeB4bsX_KBS">Télécharger mon CV</a>
+                <a className="download-cv" href="https://drive.google.com/file/d/1V9rExNEV_CS5CY1cx_xvqugv19lqhlsF/view?usp=sharing">Télécharger mon CV</a>
             </div>
             {/* <div className="bloc2">
             </div> */}
